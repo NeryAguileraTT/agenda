@@ -1,133 +1,94 @@
+// header //
+.mat-toolbar {
+  background-color: transparent !important;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
 .mat-toolbar button[mat-icon-button] {
-    color: white;
-  }
-  mat-card {
+  color:  #E5E5E3;
+}
+.cbg{
+  width: 100%;
+  margin: 0; /* Elimina el margen predeterminado del cuerpo */
+  padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+  background-image: url('/assets/c.png'); /* Ruta de tu imagen de fondo */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+  background-position: center; /* Centra la imagen en el fondo */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+}
+// header //
+.texture{
+  height: 55vh;
+  width: 100%;
+  background-image: url('/assets/texture.png'); /* Ruta de tu imagen de fondo */
+  background-size:contain; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+  background-position: center; /* Centra la imagen en el fondo */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+}
+.tittle{
+  padding-top: 2rem;
+  font-size:62px;
+  color:#E5E5E3;
+  letter-spacing: 10.96px;
+  line-height: 70px; /* 120.5% */
+  text-align: center;
+  font-family: "ministry", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.subtittle{
+  font-family: "ministry", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: -.03em;
+  line-height: .83;
+  font-size:28px;
+}
 
-    border-radius: 15px !important;
 
-  }
-  .mat-toolbar {
-    background-color: transparent !important;
-  }
-  .example-spacer {
-    flex: 1 1 auto;
-  }
-  .tarjeta-degradada {
-     height: 260px;
-    background: transparent !important; 
-    color: white; 
-    border-width: 1px; /* Ancho del borde */
-    border-image: linear-gradient(to right, #009ccbac, #0A4772, #03b8ef94) 2; /* Colores del gradiente del borde */ /* Borde transparente para que se vea solo el degradado */
-    box-shadow: none; /* Elimina la sombra */
+.onbtn{
+  font-size:22px;
+  text-align: center;
+  font-weight: 600;
+  background-color: #009CCB;
+  border: none;
+  border-radius: 25px;
+}
+.onbtn2{
+  font-size:22px;
+  text-align: center;
+  background-color:transparent;
+  color: #E5E5E3;
+  border: .15rem solid #009CCB;
+  border-radius: 25px;
+  font-weight: 600;
+  padding: 30px;
+}
+.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #A6672B; /* Puedes cambiar el color del círculo según tus necesidades */
+}
 
-  }
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  li{
-    list-style-type: circle;
-    color: #1c2d70;
-    font-size: 2px;
-    margin-right: 10px;
-  }
-  
-  .btn{
-    border-radius: 25px;
-    padding: 10px 20px; /* Puedes ajustar el padding según tus necesidades */
-    font-size: 16px;
-  }
 
-  .bgclouds{
-    width: 100%;
-    height: 100vh;
-    margin: 0; /* Elimina el margen predeterminado del cuerpo */
-    padding: 0; /* Elimina el relleno predeterminado del cuerpo */
-  
-    background-image: url('/assets/c.png'); /* Ruta de tu imagen de fondo */
-    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
-    background-position: center; /* Centra la imagen en el fondo */
-    background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
-  }
-  .imagebg{
-    background-image: url('/assets/BG.png'); /* Ruta de tu imagen de fondo */
-   width: 100;
-    background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
-  }
 
-  .bgblue{
-    width: 100%;
-    height: 100vh;
-    background-color: transparent !important;
-  }
-  .tittle{
-    font-size:82px;
-    font-weight: 600;
-    color: white;
-    letter-spacing: 10.96px;
-    line-height: 100px; /* 120.5% */
-    text-align: center;
-  }
-  .tittle2{
-    font-size:35px;
-    text-align: center;
-    letter-spacing: .05em;
-      line-height: .93;
-      color: #482809;
-      font-weight: 600;
-  }
-  .t3{
-    font-size:28px;
-    text-align: center;
-    letter-spacing: 3px;
-    line-height: .60;
-    color: #482809;
-  }
-  span {
-    font-weight: 600;
-    color: #E16E33;
-  }
-  
- 
-  .onbtn{
-    font-size:18px;
-    text-align: center;
-    font-weight: 600;
-    background-color: #009CCB;
-     border: none;
-  }
-  .onbtn2{
-    font-size:18px;
-    text-align: center;
-    background-color:transparent;
-    color: #ffffff;
-    border: .15rem solid #009CCB;
-    font-weight: 600;
-    padding: 30px;
-  }
-
-  .example-sidenav-content {
-    display: flex;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .example-sidenav {
-    padding: 20px;
-  }
-  .tittlediv{
-    display: flex;
-    height: 50vh;
-    align-items: center;
-    justify-content: center;
-  }
-  .infodiv{
-   
-    height: 20vh;
-   
-  }
-  .btndiv{
-    height: 15vh;
-  }
+.circleimg{
+  width: 100%;
+  height: 30vh;
+  margin: 0; /* Elimina el margen predeterminado del cuerpo */
+  padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+  background-image: url('/assets/circle.png'); /* Ruta de tu imagen de fondo */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+  background-position: center; /* Centra la imagen en el fondo */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+}
+.texturetravel{
+  height: 55vh;
+  background-image: url('/assets/texture2.png');
+  background-color: #E5E5E3;
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+  background-position:center; /* Centra la imagen en el fondo */
+  background-repeat: repeat;
+}
