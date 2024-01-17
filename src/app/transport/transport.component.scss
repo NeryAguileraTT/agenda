@@ -1,0 +1,27 @@
+.hero-image {
+    background-image: url('/assets/coming.png'); /* Reemplaza con la imagen de fondo que desees */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  
+  .hero-container {
+    height: 90vh;
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    line-height: 20px; /* 120.5% */
+  }
+  .mat-toolbar button[mat-icon-button] {
+    color: white;
+  }
+  .mat-toolbar {
+    background-color: transparent !important;
+  }
+  .example-spacer {
+    flex: 1 1 auto;
+  }

@@ -1,0 +1,16 @@
+<kendo-scheduler
+      [kendoSchedulerBinding]="events"
+      [selectedDate]="selectedDate"
+      startTime="07:00"
+      endTime="22:00"
+      style="height: 800px;"
+>
+      <kendo-scheduler-day-view> </kendo-scheduler-day-view>
+
+      <kendo-scheduler-multi-day-view [numberOfDays]="4">
+      </kendo-scheduler-multi-day-view>
+
+      <kendo-scheduler-week-view> </kendo-scheduler-week-view>
+
+      <kendo-scheduler-work-week-view> </kendo-scheduler-work-week-view>
+    </kendo-scheduler>
